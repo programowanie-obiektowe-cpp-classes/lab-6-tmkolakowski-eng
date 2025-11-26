@@ -18,7 +18,5 @@ std::vector< char > foo(std::list< Human >& people)
         }
     };
     std::for_each(people.rbegin(), people.rend(), f );
-    // Twoja implementacja tutaj
-
     return retval;
 }
